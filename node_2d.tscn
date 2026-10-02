@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://da8rmuy18j1ki"]
+
+[ext_resource type="Texture2D" uid="uid://blqjdvmtnj2io" path="res://icon.svg" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://dakfg156qmlw5" path="res://1689754841_Tinkerbell15.webp" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://505755jwohpd" path="res://1689754841_tinkerbell_16.gd" id="3_0hol4"]
+[ext_resource type="PackedScene" uid="uid://lvyrqmfy587y" path="res://color_rect_3.tscn" id="3_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=1653588925]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=864951836]
+position = Vector2(133, 418)
+texture = ExtResource("1_wtcfe")
+
+[node name="1689754841Tinkerbell16" type="Sprite2D" parent="." unique_id=960589082]
+position = Vector2(530.00006, 251.00003)
+scale = Vector2(0.23097862, 0.25277779)
+texture = ExtResource("2_0e48y")
+script = ExtResource("3_0hol4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=73081197]
+offset_left = 257.0
+offset_top = 121.0
+offset_right = 294.0
+offset_bottom = 488.0
+color = Color(0.95508605, 0.5063937, 0.36034065, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=454405565]
+offset_left = 153.0
+offset_top = 44.0
+offset_right = 383.0
+offset_bottom = 298.0
+color = Color(0.8822558, 0.72922784, 0.5452521, 1)
+
+[node name="ColorRect3" parent="." unique_id=1065885431 instance=ExtResource("3_epypp")]
